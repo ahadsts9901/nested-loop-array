@@ -14,7 +14,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em 0em;
+    column-gap: 1em;
+    padding: 1em 0em 0em 0em;
     color: #212121;
     background-color: #ffb633;
 }
@@ -29,6 +30,27 @@ header h2 {
     text-align: center;
 }
 
+header ul{
+    padding: 0em;
+}
+
+header ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+header ul li a{
+    color: #000;
+    border: 0px;
+    background-color: #fff;
+}
+
+.active{
+    color: #000;
+    background-color: #fda400;
+    border: 2px solid #000;
+}
+
 .message {
     text-align: center;
     width: 100%;
@@ -36,7 +58,7 @@ header h2 {
 }
 
 body {
-    padding: 2em 0em;
+    padding: 0em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,6 +103,43 @@ legend h2 {
 }
 
 .input {
+    width: 4em;
+    height: 4em;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 0em;
+    padding: 0.3em;
+}
+
+.input2 {
+    width: 5em;
+    height: 5em;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 0em;
+    padding: 0.3em;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1em;
+    margin-bottom: 1em;
+}
+
+
+.input4 {
     width: 3em;
     height: 3em;
     border: 0px;

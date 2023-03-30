@@ -33,13 +33,13 @@
     <header>
         <h2>Matrix Math Operators</h2>
         <ul>
-            <li><a href="./2x2.html">2x2 Matrix</a></li>
-            <li><a class="active" href="./index.html">3x3 Matrix</a></li>
+            <li><a class="active" href="./2x2.html">2x2 Matrix</a></li>
+            <li><a href="./index.html">3x3 Matrix</a></li>
             <li><a href="./4x4.html">4x4 Matrix</a></li>
         </ul>
     </header>
 
-    <h2>3x3 Matrix</h2>
+    <h2>2x2 Matrix</h2>
 
     <p class="message">This Web Can Express Matrices With A Single Value</p>
     <p class="message">Click Here To Express 2 Matrices</p>
@@ -50,20 +50,13 @@
             <legend>
                 <h2>Enter Matrix Values</h2>
             </legend>
-            <row>
-                <input class="input" type="number" id="x1">
-                <input class="input" type="number" id="x2">
-                <input class="input" type="number" id="x3">
+            <row class="row2">
+                <input class="input2" type="number" id="x1">
+                <input class="input2" type="number" id="x2">
             </row>
-            <row>
-                <input class="input" type="number" id="x4">
-                <input class="input" type="number" id="x5">
-                <input class="input" type="number" id="x6">
-            </row>
-            <row>
-                <input class="input" type="number" id="x7">
-                <input class="input" type="number" id="x8">
-                <input class="input" type="number" id="x9">
+            <row class="row2">
+                <input class="input2" type="number" id="x3">
+                <input class="input2" type="number" id="x4">
             </row>
         </fieldset>
         <fieldset class="Value">
@@ -73,12 +66,12 @@
             <input required class="value" type="number" id="value">
         </fieldset>
         <row>
-            <button type="submit" class="button" onclick="add(event)">Add</button>
-            <button type="submit" class="button" onclick="subtract(event)">Subtract</button>
+            <button type="submit" class="button" onclick="add2(event)">Add</button>
+            <button type="submit" class="button" onclick="subtract2(event)">Subtract</button>
         </row>
         <row>
-            <button type="submit" class="button" onclick="multiply(event)">Multiply</button>
-            <button type="submit" class="button" onclick="divide(event)">Divide</button>
+            <button type="submit" class="button" onclick="multiply2(event)">Multiply</button>
+            <button type="submit" class="button" onclick="divide2(event)">Divide</button>
         </row>
     </form>
 
@@ -87,7 +80,7 @@
             <legend>
                 <h2>Result</h2>
             </legend>
-            <p class="result" id="result"></p>
+            <p class="result" id="result2"></p>
         </fieldset>
     </result>
     <br />
